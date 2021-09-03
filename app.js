@@ -1,29 +1,21 @@
 // Arithmetic operators
 
-const a = 5
-const b = 15
+const a = 21
+const b = 3
+const c = 23
 
-console.log(a+b)
+console.log('a > b', a > b)
+console.log('a < b',a < b)
+console.log('a == b',a == b)
+console.log('a>=c', a >= c)
 
-console.log(a-b)
-  
-console.log(a*b)
+//console.log('-------------------')
+//----------------------
 
-console.log(a/b)
+const e = '22'
+const d = '22'
 
-console.log(a**b)
+console.log(e == d)
+console.log(e === d)
 
-console.log(b%a)
-
-console.log('-------------------')
-
-
-let c = 5 
- 
-c **=3
-//c operator=number is equivalent to c = c operator number
-
-// c = c * 5=> 5*5 = 25
-
-
-console.log(c)
+console.log('neelu' == 'Neelu')
