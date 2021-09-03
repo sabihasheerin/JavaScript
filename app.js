@@ -1,21 +1,29 @@
-// Arithmetic operators
+// Logical operators
 
-const a = 21
-const b = 3
-const c = 23
+const a = 20
+const b = 30
 
-console.log('a > b', a > b)
-console.log('a < b',a < b)
-console.log('a == b',a == b)
-console.log('a>=c', a >= c)
+const c = 55
 
-//console.log('-------------------')
-//----------------------
+console.log(c > a && c < b)
 
-const e = '22'
-const d = '22'
+console.log('a == b', a == b)
+console.log('a != b', a != b)
+console.log('')
 
-console.log(e == d)
-console.log(e === d)
+console.log('Truth table for AND')
+console.log('')
 
-console.log('neelu' == 'Neelu')
+console.log('false && false', false && false)
+console.log('true && true', true && true)
+console.log('true && false', true && false)
+console.log('false && true', false && true)
+console.log('')
+
+console.log('Truth table for OR')
+console.log('')
+
+console.log('false|| false', false || false)
+console.log('true|| true', true || true)
+console.log('true|| false', true || false)
+console.log('false|| true', false || true)
