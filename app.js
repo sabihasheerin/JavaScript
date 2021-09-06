@@ -1,14 +1,26 @@
-// Data Types
-// Primitive data types
-let age = 132.34353466;
-let Name = 'asdfdgvfb@'
-let isTrue = false
-let isfalse = false
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissor = document.querySelector('#scissor')
 
-// Non primitive data types
+// var.Name
 
-let arr = [1 , 2 , 3 , 4 ,5]
-arr.push("value")
-arr.unshift("098")
-console.log(arr)
-console.log(typeof arr)
+//console.log(Name)
+
+function logName(Name = "john doe ", age = 18){
+  //console.log("sabiha")
+   console.log(Name + " you are" + age)
+ }
+
+// Never Misspell the function keyword
+//a function can have multiple parameters
+//you can set default values for the parameters
+// Any variable you define inside a functions body is local to that function
+
+function add(a = 0 , b = 0,){
+   
+ return a + b
+}
+
+const result = add()
+
+console.log(result)
