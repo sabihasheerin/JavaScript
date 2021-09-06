@@ -1,17 +1,26 @@
-const element = document.querySelector('#selectme')
-//element.innerHTML = "This is from JS"
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissor = document.querySelector('#scissor')
 
-// element.style.color = "cyan"
-//element.style.fontsize = "40px"
-//element.style = 'display:none'
+// var.Name
 
-//console.log(element.classList)
-//element.classList.add('five')
-//console.log(element.classList)
-//element.classList.remove('one')
-//console.log(element.classList)
+//console.log(Name)
 
-const value = element.classList.contains('three')
+function logName(Name = "john doe ", age = 18){
+  //console.log("sabiha")
+   console.log(Name + " you are" + age)
+ }
 
+// Never Misspell the function keyword
+//a function can have multiple parameters
+//you can set default values for the parameters
+// Any variable you define inside a functions body is local to that function
 
-console.log(value)
+function add(a = 0 , b = 0,){
+   
+ return a + b
+}
+
+const result = add()
+
+console.log(result)
