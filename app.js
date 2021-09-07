@@ -1,33 +1,14 @@
+// for (var i = 1; i <= 10; i++) {
+//     var age = "19"
+//     console.log("ITeration " + i)
+// }
 
 
 
 
-const rock = document.querySelector('#rock')
-const paper = document.querySelector('#paper')
-const scissor = document.querySelector('#scissor')
-const board = document.querySelector("#board")
+let iteration = 1
 
-
-const handler = (e) => {
-    const action = e.target.id
-    
-    switch (action) {
-      case "rock":
-          board.innerHTML = "Rock crushes scissors"
-      case 'paper':
-         board.innerHTML = "Paper traps Rock"
-      case 'scissor':
-          board.innerHTML = "Scissor cuts paper"
-          break 
-          default:
-            board.innerHTML = "click something"
+while (iteration < 10) {
+    console.log(iteration)
+    iteration++
 }
-}
-
-
-
-rock.addEventListener('click', handler)
-paper.addEventListener('click', handler)
-scissor.addEventListener('click', handler)
-
-
