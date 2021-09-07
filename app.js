@@ -1,14 +1,4 @@
-// for (var i = 1; i <= 10; i++) {
-//     var age = "19"
-//     console.log("ITeration " + i)
-// }
-
-
-
-
-let iteration = 1
-
-while (iteration < 10) {
-    console.log(iteration)
-    iteration++
-}
+// const balls = document.querySelectorAll('.ball')
+const balls = document.getElementByClassName('.ball')
+const body = document.querySelector('body')
+console.log(balls.push)
